@@ -1,2 +1,2 @@
-# imfunniee.github.io
+# nettles
 personal portfolio website and projects
