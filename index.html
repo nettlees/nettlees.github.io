@@ -1,85 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property='og:title' id="nettles-dev.ml" content='My website' />
+        <meta property='og:type' content="website" />
+        <meta property='og:description' id="eDesc" content='Here you have my Website!' />
+        <meta property="og:image" id="eIcon" content='images/fav_icon.png' />
+        <meta name="theme-color" content="#c83ca0">
 
-  <link rel="icon" href="https://avatars3.githubusercontent.com/u/36105478" type="image/png">
-  <meta name="google-site-verification" content="mjFIZTxE_IKhH-lBgPwblCJ1xPugeI5RRe0qnXF10M8" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-  <meta name="theme-color" content="#000">
-  <meta name="msapplication-navbutton-color" content="#000">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
-  <title>nettles - frontend developer & bot developer</title>
-  <meta name="title" content="nettles - bot developer & web developer">
-  <meta name="description" content="Hey Stranger, Looking for a web developer or bot developer">
-  <meta name="keywords"
-    content="web developer, bot developer, web designer, useless website maker, can write one line of code">
-  <meta name="robots" content="index, follow">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="language" content="English">
-  <meta name="revisit-after" content="2 days">
-  <meta name="author" content="nettless">
-  <link rel="canonical" href="https://nettlees.github.io" />
-  <link rel="stylesheet" href="./assets/css/index.css" />
-</head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
+        <style>
+            ::-webkit-scrollbar {
+            width: 10px;
+            }
+            ::-webkit-scrollbar-track {
+            background: #1A202C;
+            }
+            ::-webkit-scrollbar-thumb {
+            background: #666;
+            }
+            ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+            }
+            body, html {
+                overflow-x: hidden;
+            }
+            body, html {
+                overflow-x: hidden;
+            }
+            body {
+                padding-bottom: 30px;
+            }
+            header span:hover, .card:hover {
+                cursor: pointer;
+                transition-duration: 0.2s;
+            }
+            header span {
+                transition: background-color 75ms ease-in-out;
+                transition: box-shadow 75ms ease-in-out;
+            }
+            .card {
+                transform: rotate(0deg);
+                transition: transform 0.2s ease-in-out;
+            }
+            .card:hover {
+                transform: rotate(2deg);
+            }
+            #splashIcon {
+                transform: translateY(-60%);
+            }
+            #list {
+                display: grid;
+                margin: auto;
+                grid-template-columns: repeat(auto-fit, 320px);
+                grid-gap: 50px;
+                justify-content:center;
+                margin-top: 300px;
+            }
+            * {
+                user-select: none;
+            }
+            .partner-title {
+                display: none;
+            }
+            @media only screen and (max-width: 600px) {
+                #list {
+                    grid-gap: 30px;
+                    margin-top: 220px;
+                }
+            }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nettles is Cool</title>                                      <!-- Put your Website Name here-->
+        <link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon">
+    </head>
+    <body class="pt-40 p-0 bg-gray-900 text-white">
 
-<body>
-  <div id="not_supported">
-    sorry but THE mobile version doesn't look good right now, <br />
-    check back later :p (turn on desktop view on your browser settings!) 
-  </div>
-  <div id="video">
-    <video src="https://i.imgur.com/IgFfZkk.mp4" autoplay loop muted></video>
-  </div>
-  <div id="main">
-    <header>
-      <ul>
-        <li style="float:left;">
-          <img src="./assets/images/logo.png" alt="funny's logo" />
-        </li>
-        <li><a class="swipe" href="mailto:nettles.dev@gmail.com" tabindex="4">contact</a></li>
-        <li><a class="swipe" href="https://noice.link/cutify" tabindex="3">discord</a></li>
-        <li><a class="swipe" href="https://github.com/nettlees" tabindex="2">web</a></li>
-        <li><a class="swipe" tabindex="1" onclick="alert('working on it :)')">showreel</a></li>
-      </ul>
-    </header>
-    <span>web developer & bot developer</span>
-    <div>
-      hey stranger, <br />
-      let's not be strangers <br />anymore
-    </div>
-    <button onclick="window.location = 'mailto:nettles.dev@gmail.com'">hire me</button>
-    <footer>
-      <ul>
-        <li style="float:left"><b id="distance">0.00</b> m</li>
-        <li style="margin-right:10px;">
-          <a href="https://noice.link/rickroll"><i class="fab fa-google"></i></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/Nettles98476283?s=09"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="https://dribble.com"><i class="fab fa-dribbble"></i></a>
-        </li>
-        <li>
-          <a href="https://github.com/nettlees"><i class="fab fa-github"></i></a>
-        </li>
-      </ul>
-    </footer>
-  </div>
-  </div>
-  <script src="./assets/js/smooth.js"></script>
-  <script type="text/javascript">
-    var origin = 0.00;
-    setInterval(function () {
-      document.querySelector("#distance").innerHTML = Math.ceil(origin);
-      origin += 1.9;
-    }, 100)
-  </script>
-</body>
+        <div class="text-center md:w-1/2 w-screen select-none">
+            <a class="text-6xl font-semibold">Nettles</a> <br>      <!-- Put your Name here-->
+            <a class="text-gray-500">Full time god</a> <br>      <!-- Put your Description here-->
+        </div>
+        <div class="w-1/2 float-right hidden md:block">
+            <img src="images/me.png" id="splashIcon" style="border-radius: 20px;" class="overflow-hidden w-64 mx-auto">
+        </div>
+        <div class="px-20 w-screen" id="list">
+            <!-- FIELD ONE -->
 
+            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('https://www.nettles-dev.ml')">   <!-- Put your Website Link here-->
+                <div class="flex">
+                    <img src="images/field_1.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">Name (line 78)</span> <!-- Put your Fiel image and your field name Link here-->
+                </div>
+                <p class="text-gray-400 mt-2">
+                    My Discord Server <!-- Put your Description here-->
+                </p>
+                <p class="text-blue-300 mt-2">
+                    https://noice.link/cutify      <!-- Put your Link here-->
+                </p>
+            </div>
+
+
+            <!-- FIELD TWO -->
+
+            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('    ')">   <!-- Put your Website Link here-->
+                <div class="flex">
+                    <img src="images/field_2.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">Name (line 93)</span> <!-- Put your Fiel image and your field name Link here-->
+                </div>
+                <p class="text-gray-400 mt-2">
+                    Description (line 96) <!-- Put your Description here-->
+                </p>
+                <p class="text-blue-300 mt-2">
+                    link (line 99)      <!-- Put your Link here-->
+                </p>
+            </div>
+
+
+        </div>
+    </body>
 </html>
+
