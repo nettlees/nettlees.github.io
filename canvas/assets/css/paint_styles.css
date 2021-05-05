@@ -1,0 +1,27 @@
+/* Make background slightly darker so canvas is visible as white */
+body {
+    background-color: darkgray;
+}
+
+/* Center the canvas */
+#canvas {
+    background-color: white;
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Center the navigation bar */
+#main-nav {
+    position: absolute;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
